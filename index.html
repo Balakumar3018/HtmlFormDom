@@ -39,30 +39,30 @@
         </div>
         <h6 class="form-group col-md-8">Gender</h6>
         <div class="form-group col-md-8">
-            <input type="radio" id="male" >
+            <input type="radio" id="male" name="gender" value="male" >
             <label for="gender" >Male</label>
-            <input type="radio" id="female" >
+            <input type="radio" id="female" name="gender" value="female" >
             <label for="gender" >Female</label>    
         </div>
         <h6 class="form-group col-md-8">Favortite food(must choose at least two)</h6>
         <div class="form-check col-md-8">
-            <input type="checkbox" id="South indian" >
+            <input type="checkbox" id="South indian" name="favoritefood" value="South indian" >
             <label for="South indian" >South indian</label>   
         </div>
         <div class="form-check col-md-8">
-            <input type="checkbox" id="North indian" >
+            <input type="checkbox" id="North indian" name="favoritefood" value="North indian">
             <label for="North indian" >North indian</label> 
         </div>
         <div class="form-check col-md-8">
-            <input type="checkbox" id="Chinese" >
+            <input type="checkbox" id="Chinese" name="favoritefood" value="chinese" >
             <label for="Chinese" >Chinese</label> 
         </div>
         <div class="form-check col-md-8">
-            <input type="checkbox" id="Japanes" >
+            <input type="checkbox" id="Japanes" name="favoritefood" value="japanes" >
             <label for="Japanes" >Japanes</label> 
         </div>
         <div class="form-check col-md-8">
-            <input type="checkbox" id="Seafood" >
+            <input type="checkbox" id="Seafood" name="favoritefood" value="seafood">
             <label for="Seafood" >Seafood</label> 
         </div>
         <div class="form-group col-md-8">
@@ -73,18 +73,18 @@
             <label for="Country" >Country</label>
             <input type="text" id="Country" class="form-control" required='required'>
         </div>
-        <input type="submit" value="submit" class="form-group col-md-8" id="submit-btn" onclick="">
+        <input type="submit" value="submit" class="form-group col-md-8" id="submit-btn" >
         
         </form>
-    </div>
-    <div style="width: 70%; float:right;">
+     </div>
+     <div style="width: 70%; float:right;">
         <table class="table">
             <thead class="thead-dark">
               <tr>
                 <th class="col-1">First Name</th>
                 <th class="col-1">Last Name</th>
-                <th class="col-1">Address line 1</th>
-                <th class="col-1">Address line 2</th>
+                <th class="col-1">Address</th>
+                <th class="col-1">Gender</th>
                 <th class="col-1">Pin code</th>
                 <th class="col-1">Favortite food</th>
                 <th class="col-1">State</th>
@@ -96,7 +96,7 @@
                 <td class="td" id="Dfirstname"></td>
                 <td class="td" id="Dlastname"></td>
                 <td class="td" id="Dadd1"></td>
-                <td class="td" id="Dadd2"></td>
+                <td class="td" id="Dgender"></td>
                 <td class="td" id="Dpincode"></td>
                 <td class="td" id="Dfavoritefood"></td>
                 <td class="td" id="Dstate"></td>
@@ -106,6 +106,6 @@
           </table>
         </div>
     </div>
-<script src="htmlForm.js"></script>
+<script src="javascript.js"></script>
 </body>
 </html>
